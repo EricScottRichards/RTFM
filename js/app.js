@@ -1,5 +1,9 @@
 var app = angular.module('rtfmApp', ['firebase', 'ngRoute']);
 
+app.constant(fb, {
+	"https://rtfm-eric.firebaseio.com/EricScottRichards"
+})
+
 app.config(function($routeProvider){
 
 	$routeProvider
